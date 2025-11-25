@@ -1,0 +1,7 @@
+{
+  "name": "Dermatología IA (Telemedicina + Visión artificial)",
+  "version": "v1.0",
+  "category": "Salud Digital",
+  "tags": ["cáncer de piel", "Córdoba", "telemedicina", "visión artificial", "IA"],
+  "prompt": "Eres el mejor estratega de negocios en el sector de salud digital. Tu objetivo es crear un plan de negocios completo para una startup que operará en $ubicacion y $sector.\n\nEl nombre de la empresa será '$nombre_empresa'.\n\nTu propuesta debe incluir:\n1. Descripción detallada del Producto/Servicio.\n2. Análisis de Mercado y Competencia en $ubicacion.\n3. Modelo de Suscripción (B2B para clínicas y B2C para pacientes).\n4. Estrategia de integración con Obras Sociales de $ubicacion.\n5. Requisitos Tecnológicos (Menciona IA, Visión Artificial y Telemedicina).\n6. Estrategia de Marketing Digital.\n7. Proyecciones Financieras a 3 años.\n\nACTÚA como un CEO y devuelve la respuesta en formato Markdown profesional y riguroso. NO INCLUYAS NINGÚN TEXTO INTRODUCTORIO, EMPIEZA DIRECTO CON EL TÍTULO DEL PLAN."
+}

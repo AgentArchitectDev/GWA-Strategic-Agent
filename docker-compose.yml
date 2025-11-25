@@ -1,0 +1,50 @@
+version: '3.8'
+
+services:
+  # ----------------------------------------
+  # 1. Servicio MAGENTA (Procesador LLM)
+  # ----------------------------------------
+  magenta:
+    build:
+      context: . # Usa el contexto de la raíz C:\gwa_project_v1
+      dockerfile: gwa_studio_llms/Dockerfile # Usa el Dockerfile específico
+    container_name: gwa_magenta_service
+    ports:
+      - "8001:8001" # Exponer el puerto solo si se necesita debug, sino es interno
+    environment:
+      # ¡CRÍTICO! La clave se inyecta desde el host a esta variable
+      - GEMINI_API_KEY=${GEMINI_API_KEY} 
+    restart: always
+
+  # ----------------------------------------
+  # 2. Servicio CIAN (Gateway Proxy)
+  # ----------------------------------------
+  cian:
+    build:
+      context: .
+      dockerfile: gwa_studio_core/Dockerfile
+    container_name: gwa_cian_gateway
+    ports:
+      - "8000:8000" # Exponer el puerto para que el frontend pueda conectarse
+    environment:
+      # CIAN se conecta a MAGENTA usando el nombre del servicio 'magenta'
+      - MAGENTA_BASE_URL=http://magenta:8001
+    depends_on:
+      - magenta # CIAN espera a que MAGENTA esté corriendo
+    restart: always
+
+  # ----------------------------------------
+  # 3. Frontend Streamlit
+  # ----------------------------------------
+  frontend:
+    build:
+      context: .
+      # Usamos el Dockerfile de CIAN como base ya que tiene Streamlit instalado
+      dockerfile: gwa_studio_core/Dockerfile 
+    container_name: gwa_frontend_streamlit
+    ports:
+      - "8501:8501" # Streamlit corre por defecto en 8501
+    command: streamlit run app_frontend.py # Comando para lanzar el frontend
+    depends_on:
+      - cian # El frontend espera a que CIAN esté corriendo
+    restart: always

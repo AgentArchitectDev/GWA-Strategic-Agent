@@ -1,0 +1,5 @@
+"gwa_env/" 
+"*.pyc" 
+"__pycache__/" 
+"*.env" 
+"gwa_studio_llms/api_key.txt" 

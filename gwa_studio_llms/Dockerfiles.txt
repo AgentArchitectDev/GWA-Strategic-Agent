@@ -1,0 +1,18 @@
+# Usa una imagen base de Python ligera (Recomendado para producción)
+FROM python:3.11-slim
+
+# Establece el directorio de trabajo dentro del contenedor
+WORKDIR /app
+
+# Copia los archivos de requerimientos e instálalos primero para optimizar el cache
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copia el resto de los archivos de la aplicación (incluyendo main_service.py y llm_processor.py)
+COPY . .
+
+# Expone el puerto por defecto de MAGENTA
+EXPOSE 8001
+
+# Comando de ejecución: Inicia el servidor Uvicorn para FastAPI
+CMD ["uvicorn", "main_service:app", "--host", "0.0.0.0", "--port", "8001"]
