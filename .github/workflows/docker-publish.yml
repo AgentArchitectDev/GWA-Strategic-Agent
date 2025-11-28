@@ -57,8 +57,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@96383f45573cb7f253c731d3b3ab81c87ef81934 # v5.0.0
         with:
-          # ¡CORRECCIÓN CRÍTICA! Usamos el nombre de usuario de Docker Hub CORRECTO (gerardocbaarg)
-          # y la ruta simplificada (nombre del repo) para evitar el error de "push access denied".
+          # ¡CORRECCIÓN CRÍTICA! Esto cambia el nombre de usuario de subida al correcto.
           images: gerardocbaarg/${{ github.event.repository.name }} 
 
       # Construir y subir la imagen de Docker
