@@ -1,0 +1,27 @@
+{
+  "nombre": "Reformas Integrales",
+  "categoria": "Construcción",
+  "empresa_default": "Reformas Córdoba",
+  "slogan_default": "Tu casa como nueva",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#f5f5f5",
+  "color_acento": "#ff9800",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Servicios", "Antes/Después", "Presupuestos", "Contacto"],
+  "servicios": [
+    "Reformas completas",
+    "Cocinas y baños",
+    "Pintura y pisos",
+    "Ampliaciones"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 2800, "descripcion": "Web + presupuestos"},
+    "premium": {"precio": 5200, "descripcion": "Web + galería antes/después"},
+    "full": {"precio": 9500, "descripcion": "Todo + seguimiento obra + Firebase"}
+  },
+  "posts_redes": [
+    "¡Reforma completa en 45 días!",
+    "Antes y después de cocina moderna",
+    "Presupuesto gratis por WhatsApp"
+  ]
+}

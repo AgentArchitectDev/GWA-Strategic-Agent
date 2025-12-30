@@ -1,0 +1,26 @@
+{
+  "nombre": "Bar Cervecería",
+  "categoria": "Restaurantes",
+  "empresa_default": "Cerveza Artesanal Córdoba",
+  "slogan_default": "Donde la cerveza es arte",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#1b1b1b",
+  "color_acento": "#ffb300",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Cervezas Artesanales", "Pintas", "Eventos", "Reservas", "Contacto"],
+  "cervezas": [
+    "IPA Córdoba - Amargor intenso",
+    "Golden Ale - Suave y refrescante",
+    "Stout Negra - Notas de chocolate"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 3200, "descripcion": "Web menú + reservas"},
+    "premium": {"precio": 5800, "descripcion": "Web + eventos + promociones happy hour"},
+    "full": {"precio": 9800, "descripcion": "Todo + reserva mesas + app + Firebase"}
+  },
+  "posts_redes": [
+    "¡Happy hour todos los días 18-21hs!",
+    "Nueva cerveza IPA edición limitada",
+    "Vivo: banda en vivo este viernes"
+  ]
+}

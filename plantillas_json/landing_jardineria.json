@@ -1,0 +1,27 @@
+{
+  "nombre": "Landing Jardinería",
+  "categoria": "Servicios",
+  "empresa_default": "Jardines Córdoba",
+  "slogan_default": "Tu jardín, nuestro arte",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#e8f5e8",
+  "color_acento": "#4caf50",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Servicios", "Portfolio", "Presupuestos", "Contacto"],
+  "servicios": [
+    "Diseño",
+    "Mantenimiento",
+    "Riego automático",
+    "Poda"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 2800, "descripcion": "Web + portfolio"},
+    "premium": {"precio": 5200, "descripcion": "Web + presupuestos online"},
+    "full": {"precio": 9500, "descripcion": "Todo + seguimiento + Firebase"}
+  },
+  "posts_redes": [
+    "¡Nuevo jardín en Cerro de las Rosas!",
+    "Mantenimiento mensual desde $8000",
+    "Transformamos tu espacio"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "nombre": "Inmobiliaria Barrios Cerrados",
+  "categoria": "Inmobiliaria",
+  "empresa_default": "Barrios Privados Córdoba",
+  "slogan_default": "Tu lote en el barrio que siempre soñaste",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#f5f5f5",
+  "color_acento": "#388e3c",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Barrios", "Lotes Disponibles", "Masterplan", "Financiación", "Contacto"],
+  "barrios": [
+    "Country La Deseada",
+    "Valle Escondido",
+    "Los Horcones",
+    "Haras del Sur"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 3200, "descripcion": "Web catálogo barrios"},
+    "premium": {"precio": 5800, "descripcion": "Web + calculadora financiación + reservas"},
+    "full": {"precio": 9800, "descripcion": "Portal completo + CRM + integración pagos + Firebase"}
+  },
+  "posts_redes": [
+    "Últimos lotes en Valle Escondido",
+    "Financiación en 60 cuotas",
+    "Entrega inmediata en Country La Deseada"
+  ]
+}

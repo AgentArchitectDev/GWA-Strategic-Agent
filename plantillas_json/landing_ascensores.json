@@ -1,0 +1,27 @@
+{
+  "nombre": "Landing Ascensores",
+  "categoria": "Construcción",
+  "empresa_default": "Ascensores Córdoba",
+  "slogan_default": "Subimos tu calidad de vida",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#121212",
+  "color_acento": "#9e9e9e",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Modelos", "Instalaciones", "Mantenimiento", "Contacto"],
+  "modelos": [
+    "Residenciales",
+    "Panorámicos",
+    "Montacargas",
+    "Plataformas"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 3500, "descripcion": "Web + presupuestos"},
+    "premium": {"precio": 6800, "descripcion": "Web + calculadora"},
+    "full": {"precio": 12500, "descripcion": "Todo + seguimiento + Firebase"}
+  },
+  "posts_redes": [
+    "¡Ascensor residencial en 30 días!",
+    "Mantenimiento mensual certificado",
+    "Accesibilidad garantizada"
+  ]
+}

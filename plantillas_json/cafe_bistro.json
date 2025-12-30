@@ -1,0 +1,27 @@
+{
+  "nombre": "Café Bistró",
+  "categoria": "Gastronomía",
+  "empresa_default": "Café Origen 24/7",
+  "slogan_default": "El sabor que nunca duerme",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#1a0d0d",
+  "color_acento": "#FFD700",
+  "fuente": "Playfair Display",
+  "secciones": ["Hero", "Menú", "Reservas", "Galería", "Contacto"],
+  "texto_quienes_somos": "Café artesanal abierto 24 horas con los mejores granos de Córdoba y repostería casera.",
+  "servicios": [
+    {"titulo": "Café Artesanal", "descripcion": "Granos seleccionados"},
+    {"titulo": "Repostería Casera", "descripcion": "Medialunas frescas"},
+    {"titulo": "Desayunos 24h", "descripcion": "Todo el día"}
+  ],
+  "presupuesto": {
+    "basico": {"precio": 2800, "descripcion": "Web menú + reservas"},
+    "premium": {"precio": 5200, "descripcion": "Web + pedidos online"},
+    "full": {"precio": 9500, "descripcion": "Todo + delivery + app"}
+  },
+  "posts_redes": [
+    "¡Desayunos 24 horas disponibles!",
+    "Nuevas medialunas rellenas",
+    "Tu café favorito te espera"
+  ]
+}

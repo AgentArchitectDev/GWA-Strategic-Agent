@@ -1,0 +1,27 @@
+{
+  "nombre": "Farmacia Online",
+  "categoria": "Salud",
+  "empresa_default": "Farmacia Córdoba 24h",
+  "slogan_default": "Tu salud, siempre disponible",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#e8f5e8",
+  "color_acento": "#4caf50",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Productos", "Recetas", "Delivery", "Turnos Vacunación", "Contacto"],
+  "integracion_firebase": {
+    "auth": true,
+    "firestore": true,
+    "storage": true,
+    "realtime": false
+  },
+  "presupuesto": {
+    "basico": {"precio": 3500, "descripcion": "Catálogo + pedidos"},
+    "premium": {"precio": 6800, "descripcion": "E-commerce completo + pagos online"},
+    "full": {"precio": 12000, "descripcion": "Todo + recetas electrónicas + delivery integrado + Firebase"}
+  },
+  "posts_redes": [
+    "Delivery gratis en pedidos mayores a $5000",
+    "Vacunas antigripal disponibles",
+    "Turnos para vacunación COVID"
+  ]
+}

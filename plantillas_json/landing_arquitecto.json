@@ -1,0 +1,27 @@
+{
+  "nombre": "Landing Arquitecto",
+  "categoria": "Arquitectura",
+  "empresa_default": "Estudio Arquitectura Córdoba",
+  "slogan_default": "Diseñamos tu sueño",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#ffffff",
+  "color_acento": "#000000",
+  "fuente": "Playfair Display",
+  "secciones": ["Hero", "Portfolio", "Estilo", "Proceso", "Contacto"],
+  "estilo": [
+    "Minimalista",
+    "Moderno",
+    "Industrial",
+    "Clásico"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 3500, "descripcion": "Portfolio digital"},
+    "premium": {"precio": 6800, "descripcion": "Portfolio + renders"},
+    "full": {"precio": 12500, "descripcion": "Todo + tour virtual + Firebase"}
+  },
+  "posts_redes": [
+    "Nuevo proyecto minimalista terminado",
+    "Renders 3D hiperrealistas",
+    "Tu casa diseñada a medida"
+  ]
+}

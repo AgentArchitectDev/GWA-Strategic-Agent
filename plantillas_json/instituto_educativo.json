@@ -1,0 +1,28 @@
+{
+  "nombre": "Instituto Educativo",
+  "categoria": "Educación",
+  "empresa_default": "Instituto Superior Córdoba",
+  "slogan_default": "Formando el futuro de Córdoba",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#ffffff",
+  "color_acento": "#003366",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Carreras", "Inscripciones", "Campus Virtual", "Testimonios", "Contacto"],
+  "carreras": [
+    "Tecnicatura en Programación",
+    "Diseño Gráfico",
+    "Administración de Empresas",
+    "Enfermería",
+    "Marketing Digital"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 3500, "descripcion": "Web institucional + inscripciones"},
+    "premium": {"precio": 6800, "descripcion": "Web + campus virtual básico"},
+    "full": {"precio": 12500, "descripcion": "Plataforma educativa completa + LMS + Firebase"}
+  },
+  "posts_redes": [
+    "¡Inscripciones abiertas 2026! Becas disponibles",
+    "Nueva carrera: Marketing Digital",
+    "Egresados trabajando en empresas líderes"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "nombre": "Landing Climatización",
+  "categoria": "Construcción",
+  "empresa_default": "Aire Córdoba",
+  "slogan_default": "El clima perfecto todo el año",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#e3f2fd",
+  "color_acento": "#2196f3",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Servicios", "Marcas", "Mantenimiento", "Contacto"],
+  "servicios": [
+    "Instalación aire",
+    "Mantenimiento anual",
+    "Reparaciones urgentes",
+    "Sistemas centrales"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 2800, "descripcion": "Web + presupuestos"},
+    "premium": {"precio": 5200, "descripcion": "Web + calculadora ahorro"},
+    "full": {"precio": 9500, "descripcion": "Todo + monitoreo + Firebase"}
+  },
+  "posts_redes": [
+    "¡Instalación aire split 20% off!",
+    "Mantenimiento anual desde $5000",
+    "Tu hogar fresco todo el verano"
+  ]
+}

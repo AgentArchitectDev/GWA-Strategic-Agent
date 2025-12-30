@@ -1,0 +1,22 @@
+{
+  "nombre": "Escuela Primaria",
+  "categoria": "Educación",
+  "empresa_default": "Colegio San José",
+  "slogan_default": "Formando personas, construyendo futuro",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#ffffff",
+  "color_acento": "#28a745",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Proyecto Educativo", "Niveles", "Actividades", "Inscripciones", "Contacto"],
+  "niveles": ["Inicial", "Primaria Completa", "Turno Tarde"],
+  "presupuesto": {
+    "basico": {"precio": 2500, "descripcion": "Web institucional"},
+    "premium": {"precio": 4500, "descripcion": "Web + portal padres"},
+    "full": {"precio": 8500, "descripcion": "Portal completo + app + comunicaciones"}
+  },
+  "posts_redes": [
+    "¡Inscripciones abiertas para 2026!",
+    "Día de la familia en el colegio",
+    "Nuestros alumnos en competencia provincial"
+  ]
+}

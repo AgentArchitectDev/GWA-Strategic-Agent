@@ -1,0 +1,26 @@
+{
+  "nombre": "E-commerce Comida",
+  "categoria": "E-commerce",
+  "empresa_default": "Delicias Córdoba",
+  "slogan_default": "El sabor de Córdoba a tu puerta",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#fff8f0",
+  "color_acento": "#ff6b35",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Productos", "Categorías", "Carrito", "Contacto"],
+  "productos": [
+    {"nombre": "Café Expresso", "precio": 450},
+    {"nombre": "Medialunas x6", "precio": 1200},
+    {"nombre": "Té Helado", "precio": 600}
+  ],
+  "presupuesto": {
+    "basico": {"precio": 3500, "descripcion": "Tienda básica"},
+    "premium": {"precio": 7500, "descripcion": "E-commerce + pagos"},
+    "full": {"precio": 12000, "descripcion": "Todo + delivery + app"}
+  },
+  "posts_redes": [
+    "¡Nueva promo café + medialunas!",
+    "Delivery gratis hoy",
+    "Pedí por la web o WhatsApp"
+  ]
+}

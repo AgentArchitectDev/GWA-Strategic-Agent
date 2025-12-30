@@ -1,0 +1,27 @@
+{
+  "nombre": "Landing Campus Empresarial",
+  "categoria": "Inmobiliaria",
+  "empresa_default": "Campus Empresarial Córdoba",
+  "slogan_default": "El lugar donde tu empresa crece",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#ffffff",
+  "color_acento": "#1976d2",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Oficinas", "Amenities", "Ubicación", "Contacto"],
+  "amenities": [
+    "Seguridad 24h",
+    "Estacionamiento",
+    "Cafetería",
+    "Salas de reunión"
+  ],
+  "presupuesto": {
+    "landing": {"precio": 3800, "descripcion": "Landing campus"},
+    "premium": {"precio": 7200, "descripcion": "Landing + tour virtual"},
+    "full": {"precio": 13500, "descripcion": "Todo + reserva oficinas + Firebase"}
+  },
+  "posts_redes": [
+    "¡Oficinas AAA disponibles!",
+    "Campus empresarial moderno",
+    "Ubicación estratégica en Córdoba"
+  ]
+}

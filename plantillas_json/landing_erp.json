@@ -1,0 +1,28 @@
+{
+  "nombre": "Landing ERP",
+  "categoria": "Tecnología",
+  "empresa_default": "ERP Córdoba",
+  "slogan_default": "Todo tu negocio en un solo lugar",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#000000",
+  "color_acento": "#ff9800",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Módulos", "Beneficios", "Implementación", "Contacto"],
+  "modulos": [
+    "Stock",
+    "Facturación",
+    "Contabilidad",
+    "RRHH",
+    "Producción"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 6800, "descripcion": "ERP básico"},
+    "premium": {"precio": 12500, "descripcion": "ERP completo"},
+    "full": {"precio": 25000, "descripcion": "Todo + personalización + Firebase"}
+  },
+  "posts_redes": [
+    "¡ERP a medida para tu empresa!",
+    "Control total de stock y ventas",
+    "Implementación en 60 días"
+  ]
+}

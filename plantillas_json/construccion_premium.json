@@ -1,0 +1,27 @@
+{
+  "nombre": "Construcción Premium",
+  "categoria": "Construcción",
+  "empresa_default": "G.WA Construcciones",
+  "slogan_default": "Construcción premium • Mantenimiento 24/7 • Gestión digital",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#0a0a23",
+  "color_acento": "#00FFFF",
+  "fuente": "Inter",
+  "secciones": ["Hero", "Quiénes Somos", "Servicios", "Clientes", "Contacto"],
+  "texto_quienes_somos": "Somos líderes en construcción y mantenimiento 24/7 en Córdoba Capital. Más de 15 años transformando espacios con innovación, seguridad y excelencia.",
+  "servicios": [
+    {"titulo": "Obra Civil", "descripcion": "Viviendas, locales, fábricas"},
+    {"titulo": "Mantenimiento 24/7", "descripcion": "Reparaciones urgentes"},
+    {"titulo": "Gestión Digital", "descripcion": "Sistemas de turnos y CRM"}
+  ],
+  "presupuesto": {
+    "economica": {"precio": 2800, "descripcion": "Plan básico"},
+    "intermedia": {"precio": 4800, "descripcion": "Plan completo"},
+    "full": {"precio": 9800, "descripcion": "Todo incluido"}
+  },
+  "posts_redes": [
+    "¡Nueva obra en Córdoba!",
+    "Mantenimiento 24/7 disponible",
+    "Transformamos tu proyecto"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "nombre": "Clínica Odontológica",
+  "categoria": "Salud",
+  "empresa_default": "Sonrisas Perfectas",
+  "slogan_default": "Tu sonrisa, nuestra pasión",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#ffffff",
+  "color_acento": "#00a8e8",
+  "fuente": "Montserrat",
+  "secciones": ["Hero", "Tratamientos", "Antes/Después", "Equipo", "Turnos", "Contacto"],
+  "tratamientos": [
+    "Implantes",
+    "Ortodoncia",
+    "Blanqueamiento",
+    "Prótesis",
+    "Estética Dental"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 3200, "descripcion": "Web + turnos"},
+    "premium": {"precio": 5800, "descripcion": "Web + galería antes/después + turnos inteligentes"},
+    "full": {"precio": 9800, "descripcion": "Todo + integración con software dental + recordatorios"}
+  },
+  "posts_redes": [
+    "¡Blanqueamiento dental con 30% off este mes!",
+    "Antes y después que cambian vidas",
+    "Turnos disponibles para ortodoncia invisible"
+  ]
+}

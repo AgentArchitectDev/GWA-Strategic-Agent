@@ -1,0 +1,27 @@
+{
+  "nombre": "Servidores y Hosting",
+  "categoria": "Tecnología",
+  "empresa_default": "Hosting Córdoba",
+  "slogan_default": "Tu servidor siempre online",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#121212",
+  "color_acento": "#4caf50",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Planes", "Características", "Soporte", "Contacto"],
+  "planes": [
+    "VPS Básico",
+    "Servidor Dedicado",
+    "Cloud Hosting",
+    "Backup automático"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 3500, "descripcion": "Web + planes"},
+    "premium": {"precio": 6800, "descripcion": "Web + calculadora recursos"},
+    "full": {"precio": 12500, "descripcion": "Todo + panel cliente + Firebase"}
+  },
+  "posts_redes": [
+    "¡Servidor dedicado con 99.9% uptime!",
+    "Migración gratis a nuestro hosting",
+    "Backup diario automático"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "nombre": "Landing Hospital",
+  "categoria": "Salud",
+  "empresa_default": "Hospital Privado Córdoba",
+  "slogan_default": "Atención de excelencia",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#ffffff",
+  "color_acento": "#003366",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Especialidades", "Tecnología", "Turnos", "Contacto"],
+  "especialidades": [
+    "Cardiología",
+    "Oncología",
+    "Neurocirugía",
+    "Trasplantes"
+  ],
+  "presupuesto": {
+    "landing": {"precio": 4500, "descripcion": "Landing institucional"},
+    "premium": {"precio": 8500, "descripcion": "Landing + turnos online"},
+    "full": {"precio": 18000, "descripcion": "Todo + sistema pacientes + Firebase"}
+  },
+  "posts_redes": [
+    "Nuevo equipo de resonancia magnética",
+    "Turnos online disponibles",
+    "Atención internacional"
+  ]
+}

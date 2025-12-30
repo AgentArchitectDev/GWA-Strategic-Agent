@@ -1,0 +1,27 @@
+{
+  "nombre": "Landing Abogado",
+  "categoria": "Legal",
+  "empresa_default": "Estudio Jurídico Córdoba",
+  "slogan_default": "Defendemos tus derechos",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#ffffff",
+  "color_acento": "#003366",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Áreas", "Equipo", "Consultas", "Contacto"],
+  "areas": [
+    "Civil",
+    "Laboral",
+    "Penal",
+    "Familia"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 2800, "descripcion": "Web institucional"},
+    "premium": {"precio": 5200, "descripcion": "Web + consultas online"},
+    "full": {"precio": 9500, "descripcion": "Todo + turnos + documentos + Firebase"}
+  },
+  "posts_redes": [
+    "¡Consulta gratuita inicial!",
+    "Especialistas en derecho laboral",
+    "Defendemos tus derechos"
+  ]
+}

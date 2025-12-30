@@ -1,0 +1,27 @@
+{
+  "nombre": "Landing Transporte",
+  "categoria": "Logística",
+  "empresa_default": "Transporte Córdoba",
+  "slogan_default": "Tu carga en las mejores manos",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#121212",
+  "color_acento": "#ff9800",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Servicios", "Flota", "Cotización", "Contacto"],
+  "servicios": [
+    "Carga general",
+    "Refrigerados",
+    "Mudanzas",
+    "Express"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 3200, "descripcion": "Web transporte"},
+    "premium": {"precio": 5800, "descripcion": "Web + cotización online"},
+    "full": {"precio": 9800, "descripcion": "Todo + seguimiento GPS + Firebase"}
+  },
+  "posts_redes": [
+    "¡Envíos a todo el país!",
+    "Flota propia de 20 camiones",
+    "Cotización inmediata por WhatsApp"
+  ]
+}

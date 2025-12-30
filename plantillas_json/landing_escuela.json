@@ -1,0 +1,26 @@
+{
+  "nombre": "Landing Escuela",
+  "categoria": "Educación",
+  "empresa_default": "Colegio San José",
+  "slogan_default": "Formando personas, construyendo futuro",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#ffffff",
+  "color_acento": "#28a745",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Proyecto Educativo", "Inscripciones", "Actividades", "Contacto"],
+  "niveles": [
+    "Inicial",
+    "Primaria",
+    "Secundaria"
+  ],
+  "presupuesto": {
+    "landing": {"precio": 2800, "descripcion": "Landing institucional"},
+    "premium": {"precio": 5200, "descripcion": "Landing + portal padres"},
+    "full": {"precio": 9500, "descripcion": "Todo + comunicaciones + app"}
+  },
+  "posts_redes": [
+    "¡Inscripciones 2026 abiertas!",
+    "Día de la familia próximo sábado",
+    "Nuestros valores en acción"
+  ]
+}

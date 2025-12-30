@@ -1,0 +1,26 @@
+{
+  "nombre": "Portfolio Personal",
+  "categoria": "Personal",
+  "empresa_default": "Gabriel Bergoglio",
+  "slogan_default": "Mi trabajo, mi pasión",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#000000",
+  "color_acento": "#00FFFF",
+  "fuente": "Montserrat",
+  "secciones": ["Hero", "Sobre Mí", "Proyectos", "Habilidades", "Contacto"],
+  "proyectos": [
+    "GAB_I.A. 2025",
+    "Webs premium Córdoba",
+    "Apps móviles"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 2500, "descripcion": "Portfolio básico"},
+    "premium": {"precio": 4500, "descripcion": "Portfolio + blog"},
+    "full": {"precio": 8500, "descripcion": "Todo + CV interactivo + Firebase"}
+  },
+  "posts_redes": [
+    "Nuevo proyecto en portfolio",
+    "Habilidades actualizadas",
+    "Disponible para nuevos desafíos"
+  ]
+}

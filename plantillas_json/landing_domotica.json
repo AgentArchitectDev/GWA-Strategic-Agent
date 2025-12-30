@@ -1,0 +1,27 @@
+{
+  "nombre": "Landing Domótica",
+  "categoria": "Tecnología",
+  "empresa_default": "Hogar Inteligente Córdoba",
+  "slogan_default": "Tu casa más inteligente",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#000000",
+  "color_acento": "#00e5ff",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Soluciones", "Dispositivos", "Instalación", "Contacto"],
+  "soluciones": [
+    "Iluminación",
+    "Clima",
+    "Seguridad",
+    "Audio"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 3800, "descripcion": "Web + presupuestos"},
+    "premium": {"precio": 7200, "descripcion": "Web + demo virtual"},
+    "full": {"precio": 13500, "descripcion": "Todo + instalación + app + Firebase"}
+  },
+  "posts_redes": [
+    "¡Controlá tu casa desde el celular!",
+    "Iluminación LED inteligente",
+    "Seguridad 24h con cámaras"
+  ]
+}

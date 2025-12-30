@@ -1,0 +1,27 @@
+{
+  "nombre": "Landing App Móvil",
+  "categoria": "Tecnología",
+  "empresa_default": "Apps Córdoba",
+  "slogan_default": "Tu app en la palma de la mano",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#000000",
+  "color_acento": "#9c27b0",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Portfolio", "Tecnologías", "Proceso", "Contacto"],
+  "tecnologias": [
+    "React Native",
+    "Flutter",
+    "iOS Native",
+    "Android Native"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 4500, "descripcion": "App simple"},
+    "premium": {"precio": 8500, "descripcion": "App + backend"},
+    "full": {"precio": 15000, "descripcion": "Todo + publicación + Firebase"}
+  },
+  "posts_redes": [
+    "¡Nueva app lanzada para cliente!",
+    "Apps nativas iOS y Android",
+    "Tu negocio en el bolsillo de tus clientes"
+  ]
+}

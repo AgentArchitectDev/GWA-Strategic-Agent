@@ -1,0 +1,27 @@
+{
+  "nombre": "Facturación Electrónica",
+  "categoria": "Tecnología",
+  "empresa_default": "Facturación Córdoba",
+  "slogan_default": "Facturá fácil y rápido",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#f5f5f5",
+  "color_acento": "#2196f3",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Planes", "Integraciones", "Soporte", "Contacto"],
+  "planes": [
+    "Monotributo",
+    "Responsable Inscripto",
+    "Exportación",
+    "Multiempresa"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 2800, "descripcion": "Sistema facturación"},
+    "premium": {"precio": 5200, "descripcion": "Facturación + stock"},
+    "full": {"precio": 9500, "descripcion": "Todo + app + Firebase"}
+  },
+  "posts_redes": [
+    "¡Facturación electrónica AFIP aprobada!",
+    "Facturá desde tu celular",
+    "Multiempresa desde $5000 mensual"
+  ]
+}

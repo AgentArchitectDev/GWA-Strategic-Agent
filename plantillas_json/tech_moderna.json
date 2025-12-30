@@ -1,0 +1,27 @@
+{
+  "nombre": "Tech Moderna",
+  "categoria": "Tecnología",
+  "empresa_default": "Tech Solutions",
+  "slogan_default": "Innovación que transforma tu negocio",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#000000",
+  "color_acento": "#00ffea",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Servicios", "Portfolio", "Equipo", "Contacto"],
+  "texto_quienes_somos": "Desarrollamos soluciones digitales a medida para empresas que quieren crecer en el mundo online.",
+  "servicios": [
+    {"titulo": "Desarrollo Web", "descripcion": "Webs modernas y rápidas"},
+    {"titulo": "Apps Móviles", "descripcion": "iOS y Android"},
+    {"titulo": "Sistemas CRM", "descripcion": "Gestión de clientes"}
+  ],
+  "presupuesto": {
+    "economica": {"precio": 3500, "descripcion": "Landing + CRM básico"},
+    "intermedia": {"precio": 6800, "descripcion": "Web + app básica"},
+    "full": {"precio": 12500, "descripcion": "Sistema completo + mantenimiento"}
+  },
+  "posts_redes": [
+    "Nueva app lanzada para cliente premium",
+    "Webs que convierten visitas en ventas",
+    "Tu negocio digital empieza hoy"
+  ]
+}

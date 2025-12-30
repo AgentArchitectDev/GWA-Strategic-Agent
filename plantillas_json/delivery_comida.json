@@ -1,0 +1,22 @@
+{
+  "nombre": "Delivery de Comida",
+  "categoria": "Restaurantes",
+  "empresa_default": "Delivery Express Córdoba",
+  "slogan_default": "Tu comida favorita en minutos",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#ff6b35",
+  "color_acento": "#ffffff",
+  "fuente": "Montserrat",
+  "secciones": ["Hero", "Menú", "Zonas Delivery", "Promociones", "Pedidos", "Contacto"],
+  "zonas": ["Centro", "Nueva Córdoba", "Cerro de las Rosas", "Villa Warcalde"],
+  "presupuesto": {
+    "basico": {"precio": 3500, "descripcion": "Catálogo + pedidos WhatsApp"},
+    "premium": {"precio": 6800, "descripcion": "Web + pedidos online + seguimiento"},
+    "full": {"precio": 12500, "descripcion": "App completa + pagos + delivery + Firebase"}
+  },
+  "posts_redes": [
+    "¡Delivery gratis en pedidos mayores a $4000!",
+    "Combo familiar: hamburguesa + papas + gaseosa",
+    "Pedí ahora y recibís en 30 minutos"
+  ]
+}

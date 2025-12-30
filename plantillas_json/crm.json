@@ -1,0 +1,27 @@
+{
+  "nombre": "CRM Personalizado",
+  "categoria": "Tecnología",
+  "empresa_default": "CRM Córdoba",
+  "slogan_default": "Gestioná tus clientes como nunca",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#121212",
+  "color_acento": "#2196f3",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Funcionalidades", "Integraciones", "Demo", "Contacto"],
+  "funcionalidades": [
+    "Gestión clientes",
+    "Seguimiento ventas",
+    "Automatización marketing",
+    "Reportes en tiempo real"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 4500, "descripcion": "CRM básico"},
+    "premium": {"precio": 8500, "descripcion": "CRM + integraciones"},
+    "full": {"precio": 15000, "descripcion": "Todo + app + Firebase"}
+  },
+  "posts_redes": [
+    "¡CRM a medida para tu negocio!",
+    "Automatizá tus ventas",
+    "Reportes en tiempo real"
+  ]
+}

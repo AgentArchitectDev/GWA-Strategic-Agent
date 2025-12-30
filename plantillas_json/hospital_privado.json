@@ -1,0 +1,28 @@
+{
+  "nombre": "Hospital Privado",
+  "categoria": "Salud",
+  "empresa_default": "Hospital Privado Córdoba",
+  "slogan_default": "Atención de excelencia, tecnología de vanguardia",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#ffffff",
+  "color_acento": "#003366",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Especialidades", "Tecnología", "Equipo Médico", "Turnos", "Internacionales", "Contacto"],
+  "especialidades": [
+    "Cardiología Intervencionista",
+    "Oncología",
+    "Neurocirugía",
+    "Trasplantes",
+    "Medicina Reproductiva"
+  ],
+  "presupuesto": {
+    "institucional": {"precio": 4500, "descripcion": "Web institucional + turnos básicos"},
+    "avanzado": {"precio": 8500, "descripcion": "Turnos + historial paciente + telemedicina"},
+    "full": {"precio": 18000, "descripcion": "Sistema hospitalario completo + HIS + app + Firebase"}
+  },
+  "posts_redes": [
+    "Nuevo equipo de resonancia magnética 3T",
+    "Programa de pacientes internacionales con traslado incluido",
+    "Equipo médico reconocido a nivel nacional"
+  ]
+}

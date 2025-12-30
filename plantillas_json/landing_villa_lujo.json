@@ -1,0 +1,27 @@
+{
+  "nombre": "Landing Villa Lujo",
+  "categoria": "Inmobiliaria",
+  "empresa_default": "Villa Exclusiva",
+  "slogan_default": "Tu hogar de lujo en Córdoba",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#000000",
+  "color_acento": "#c9a227",
+  "fuente": "Playfair Display",
+  "secciones": ["Hero", "Galería", "Características", "Ubicación", "Contacto"],
+  "caracteristicas": [
+    "500m2 cubiertos",
+    "Piscina infinity",
+    "4 suites",
+    "Vista al lago"
+  ],
+  "presupuesto": {
+    "landing": {"precio": 3500, "descripcion": "Landing exclusiva"},
+    "premium": {"precio": 6800, "descripcion": "Landing + tour virtual"},
+    "full": {"precio": 12500, "descripcion": "Todo + video drone + Firebase"}
+  },
+  "posts_redes": [
+    "¡Villa de lujo disponible!",
+    "Tour virtual 360°",
+    "Exclusividad en Cerro de las Rosas"
+  ]
+}

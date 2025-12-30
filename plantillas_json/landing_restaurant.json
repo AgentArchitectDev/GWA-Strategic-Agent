@@ -1,0 +1,26 @@
+{
+  "nombre": "Landing Restaurant",
+  "categoria": "Restaurantes",
+  "empresa_default": "El Palacio del Sabor",
+  "slogan_default": "Experiencias gastronómicas únicas",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#121212",
+  "color_acento": "#c9a227",
+  "fuente": "Playfair Display",
+  "secciones": ["Hero", "Menú", "Reservas", "Galería", "Contacto"],
+  "menu": [
+    "Entrada premium",
+    "Principal selección chef",
+    "Postre artesanal"
+  ],
+  "presupuesto": {
+    "landing": {"precio": 3500, "descripcion": "Landing menú"},
+    "premium": {"precio": 6800, "descripcion": "Landing + reservas online"},
+    "full": {"precio": 12500, "descripcion": "Todo + pedidos + app + Firebase"}
+  },
+  "posts_redes": [
+    "¡Nuevo menú de temporada!",
+    "Reservas abiertas para fin de semana",
+    "Experiencia gourmet en Córdoba"
+  ]
+}

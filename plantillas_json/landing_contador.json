@@ -1,0 +1,27 @@
+{
+  "nombre": "Landing Contador",
+  "categoria": "Contable",
+  "empresa_default": "Estudio Contable Córdoba",
+  "slogan_default": "Tus números en orden",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#ffffff",
+  "color_acento": "#1976d2",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Servicios", "Clientes", "Consultas", "Contacto"],
+  "servicios": [
+    "Liquidación sueldos",
+    "Impuestos",
+    "Balance",
+    "Asesoramiento"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 2800, "descripcion": "Web contable"},
+    "premium": {"precio": 5200, "descripcion": "Web + portal cliente"},
+    "full": {"precio": 9500, "descripcion": "Todo + facturación + Firebase"}
+  },
+  "posts_redes": [
+    "¡Liquidación de sueldos al día!",
+    "Asesoramiento impositivo gratuito",
+    "Tus números siempre en orden"
+  ]
+}

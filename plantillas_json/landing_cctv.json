@@ -1,0 +1,27 @@
+{
+  "nombre": "Landing CCTV",
+  "categoria": "Seguridad",
+  "empresa_default": "Seguridad CCTV Córdoba",
+  "slogan_default": "Tu seguridad, nuestra prioridad",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#121212",
+  "color_acento": "#f44336",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Sistemas", "Instalación", "Monitoreo", "Contacto"],
+  "sistemas": [
+    "Cámaras IP 4K",
+    "Grabación cloud",
+    "Acceso móvil",
+    "Alarma integrada"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 3500, "descripcion": "Web + presupuestos"},
+    "premium": {"precio": 6800, "descripcion": "Web + demo cámaras"},
+    "full": {"precio": 12500, "descripcion": "Todo + instalación + monitoreo + Firebase"}
+  },
+  "posts_redes": [
+    "¡Cámaras 4K con visión nocturna!",
+    "Monitoreo 24h desde tu celular",
+    "Instalación en 48h"
+  ]
+}

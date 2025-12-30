@@ -1,0 +1,26 @@
+{
+  "nombre": "Restaurante Sushi",
+  "categoria": "Restaurantes",
+  "empresa_default": "Sushi Master Córdoba",
+  "slogan_default": "El auténtico sabor japonés",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#000000",
+  "color_acento": "#e53935",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Menú Sushi", "Combos", "Delivery", "Reservas", "Contacto"],
+  "combos": [
+    "Combo 30 piezas - $8500",
+    "Combo Premium 50 piezas - $14000",
+    "Sashimi selección del chef"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 3200, "descripcion": "Web menú + pedidos"},
+    "premium": {"precio": 5800, "descripcion": "Web + pedidos online + promociones"},
+    "full": {"precio": 9800, "descripcion": "Todo + delivery + app + Firebase"}
+  },
+  "posts_redes": [
+    "¡Nuevo combo premium 50 piezas!",
+    "Sashimi fresco todos los días",
+    "Delivery rápido en toda Córdoba"
+  ]
+}

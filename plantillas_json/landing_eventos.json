@@ -1,0 +1,26 @@
+{
+  "nombre": "Landing Eventos",
+  "categoria": "Eventos",
+  "empresa_default": "Eventos Córdoba",
+  "slogan_default": "Tu evento inolvidable",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#000000",
+  "color_acento": "#e91e63",
+  "fuente": "Playfair Display",
+  "secciones": ["Hero", "Salones", "Servicios", "Galería", "Contacto"],
+  "salones": [
+    "Salón Principal 500 personas",
+    "Salón VIP 150 personas",
+    "Jardín exterior"
+  ],
+  "presupuesto": {
+    "landing": {"precio": 3500, "descripcion": "Landing eventos"},
+    "premium": {"precio": 6800, "descripcion": "Landing + reservas online"},
+    "full": {"precio": 12500, "descripcion": "Todo + calendario + pagos + Firebase"}
+  },
+  "posts_redes": [
+    "¡Salón disponible para tu boda!",
+    "Eventos corporativos premium",
+    "Capacidad hasta 500 personas"
+  ]
+}

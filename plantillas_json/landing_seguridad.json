@@ -1,0 +1,27 @@
+{
+  "nombre": "Landing Seguridad",
+  "categoria": "Seguridad",
+  "empresa_default": "Seguridad Córdoba",
+  "slogan_default": "Tu tranquilidad, nuestra misión",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#121212",
+  "color_acento": "#f44336",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Servicios", "Tecnología", "Clientes", "Contacto"],
+  "servicios": [
+    "Vigilancia 24h",
+    "Cámaras CCTV",
+    "Alarmas monitoreadas",
+    "Escoltas VIP"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 3500, "descripcion": "Web seguridad"},
+    "premium": {"precio": 6800, "descripcion": "Web + monitoreo online"},
+    "full": {"precio": 12500, "descripcion": "Todo + app + central + Firebase"}
+  },
+  "posts_redes": [
+    "¡Seguridad 24 horas para tu hogar!",
+    "Cámaras 4K con visión nocturna",
+    "Respuesta inmediata garantizada"
+  ]
+}

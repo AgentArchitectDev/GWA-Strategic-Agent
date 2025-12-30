@@ -1,0 +1,27 @@
+{
+  "nombre": "Electricidad Industrial",
+  "categoria": "Construcción",
+  "empresa_default": "Electricidad Córdoba",
+  "slogan_default": "Energía segura y eficiente",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#000000",
+  "color_acento": "#ffeb3b",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Servicios", "Instalaciones", "Mantenimiento", "Contacto"],
+  "servicios": [
+    "Instalaciones eléctricas",
+    "Tableros industriales",
+    "Automatización",
+    "Mantenimiento preventivo"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 3200, "descripcion": "Web + presupuestos"},
+    "premium": {"precio": 5800, "descripcion": "Web + diagnóstico online"},
+    "full": {"precio": 9800, "descripcion": "Todo + monitoreo + Firebase"}
+  },
+  "posts_redes": [
+    "¡Instalación eléctrica certificada!",
+    "Mantenimiento preventivo mensual",
+    "Seguridad eléctrica garantizada"
+  ]
+}

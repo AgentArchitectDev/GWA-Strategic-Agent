@@ -1,0 +1,27 @@
+{
+  "nombre": "Taller Mecánico",
+  "categoria": "Automotriz",
+  "empresa_default": "Taller Córdoba Auto",
+  "slogan_default": "Tu auto en las mejores manos",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#121212",
+  "color_acento": "#ff1744",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Servicios", "Turnos", "Promociones", "Contacto"],
+  "servicios": [
+    "Mecánica general",
+    "Alineación y balanceo",
+    "Frenos y suspensión",
+    "Diagnóstico electrónico"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 2800, "descripcion": "Web + turnos"},
+    "premium": {"precio": 5200, "descripcion": "Web + diagnóstico online"},
+    "full": {"precio": 9500, "descripcion": "Todo + app + recordatorios + Firebase"}
+  },
+  "posts_redes": [
+    "¡Revisión completa por $5000!",
+    "Turnos disponibles esta semana",
+    "Diagnóstico electrónico gratis con service"
+  ]
+}

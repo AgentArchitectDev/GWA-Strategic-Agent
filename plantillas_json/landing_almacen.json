@@ -1,0 +1,27 @@
+{
+  "nombre": "Landing Almacén",
+  "categoria": "Inmobiliaria",
+  "empresa_default": "Almacenes Córdoba",
+  "slogan_default": "Espacio para tu logística",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#121212",
+  "color_acento": "#ff5722",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Características", "Ubicación", "Disponibilidad", "Contacto"],
+  "caracteristicas": [
+    "1000m2 cubiertos",
+    "Altura 12m",
+    "Dock de carga",
+    "Seguridad 24h"
+  ],
+  "presupuesto": {
+    "landing": {"precio": 3200, "descripcion": "Landing almacén"},
+    "premium": {"precio": 5800, "descripcion": "Landing + mapa interactivo"},
+    "full": {"precio": 9800, "descripcion": "Todo + reserva + Firebase"}
+  },
+  "posts_redes": [
+    "¡Almacén logístico disponible!",
+    "1000m2 con dock de carga",
+    "Ubicación estratégica ruta 9"
+  ]
+}

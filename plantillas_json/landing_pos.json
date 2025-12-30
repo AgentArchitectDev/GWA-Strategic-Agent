@@ -1,0 +1,27 @@
+{
+  "nombre": "Landing POS",
+  "categoria": "Tecnología",
+  "empresa_default": "POS Córdoba",
+  "slogan_default": "Ventas rápidas y simples",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#ffffff",
+  "color_acento": "#4caf50",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Funcionalidades", "Hardware", "Demo", "Contacto"],
+  "funcionalidades": [
+    "Facturación electrónica",
+    "Control stock",
+    "Reportes diarios",
+    "Pagos múltiples"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 3500, "descripcion": "POS básico"},
+    "premium": {"precio": 6800, "descripcion": "POS + stock"},
+    "full": {"precio": 12500, "descripcion": "Todo + hardware + Firebase"}
+  },
+  "posts_redes": [
+    "¡POS con facturación electrónica AFIP!",
+    "Control de stock en tiempo real",
+    "Pagos con tarjeta y QR"
+  ]
+}

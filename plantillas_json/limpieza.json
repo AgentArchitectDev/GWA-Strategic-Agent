@@ -1,0 +1,27 @@
+{
+  "nombre": "Empresa Limpieza",
+  "categoria": "Servicios",
+  "empresa_default": "Limpieza Córdoba Pro",
+  "slogan_default": "Espacios impecables, siempre",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#ffffff",
+  "color_acento": "#2196f3",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Servicios", "Presupuestos", "Clientes", "Contacto"],
+  "servicios": [
+    "Limpieza oficinas",
+    "Limpieza post-obra",
+    "Limpieza hogares",
+    "Limpieza industrial"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 2800, "descripcion": "Web + presupuestos"},
+    "premium": {"precio": 5200, "descripcion": "Web + turnos recurrentes"},
+    "full": {"precio": 9500, "descripcion": "Todo + app + seguimiento + Firebase"}
+  },
+  "posts_redes": [
+    "¡Limpieza post-obra con 20% off!",
+    "Oficinas impecables todas las semanas",
+    "Presupuesto gratis por WhatsApp"
+  ]
+}

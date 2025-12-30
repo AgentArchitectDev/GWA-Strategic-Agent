@@ -1,0 +1,27 @@
+{
+  "nombre": "Landing Pintura",
+  "categoria": "Construcción",
+  "empresa_default": "Pintura Pro Córdoba",
+  "slogan_default": "Color y protección profesional",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#121212",
+  "color_acento": "#2196f3",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Servicios", "Portfolio", "Presupuestos", "Contacto"],
+  "servicios": [
+    "Interior/exterior",
+    "Industrial",
+    "Impermeabilizaciones",
+    "Texturados"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 2800, "descripcion": "Web + presupuestos"},
+    "premium": {"precio": 5200, "descripcion": "Web + muestras colores"},
+    "full": {"precio": 9500, "descripcion": "Todo + seguimiento + Firebase"}
+  },
+  "posts_redes": [
+    "¡Pintura premium garantía 5 años!",
+    "Transformamos tu fachada",
+    "Presupuesto gratis en 24h"
+  ]
+}

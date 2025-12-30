@@ -1,0 +1,27 @@
+{
+  "nombre": "Redes Informáticas",
+  "categoria": "Tecnología",
+  "empresa_default": "Redes Córdoba",
+  "slogan_default": "Conectividad sin límites",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#000000",
+  "color_acento": "#2196f3",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Servicios", "Soluciones", "Clientes", "Contacto"],
+  "servicios": [
+    "Cableado estructurado",
+    "WiFi empresarial",
+    "Servidores",
+    "Seguridad informática"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 3800, "descripcion": "Web + presupuestos"},
+    "premium": {"precio": 7200, "descripcion": "Web + diagnóstico red"},
+    "full": {"precio": 13500, "descripcion": "Todo + instalación + mantenimiento + Firebase"}
+  },
+  "posts_redes": [
+    "¡WiFi empresarial sin cortes!",
+    "Cableado estructurado certificado",
+    "Seguridad informática total"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "nombre": "Peluquería",
+  "categoria": "Belleza",
+  "empresa_default": "Estilo Perfecto",
+  "slogan_default": "Tu estilo, nuestra pasión",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#ffffff",
+  "color_acento": "#e91e63",
+  "fuente": "Montserrat",
+  "secciones": ["Hero", "Servicios", "Galería", "Turnos", "Contacto"],
+  "servicios": [
+    "Corte y color",
+    "Tratamientos capilares",
+    "Maquillaje profesional",
+    "Manicura y pedicura"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 2800, "descripcion": "Web + turnos"},
+    "premium": {"precio": 5200, "descripcion": "Web + galería + promociones"},
+    "full": {"precio": 9500, "descripcion": "Todo + reservas online + recordatorios"}
+  },
+  "posts_redes": [
+    "¡Nuevo color de temporada!",
+    "Turnos disponibles esta semana",
+    "Antes y después que cambian vidas"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "nombre": "Gimnasio Fitness",
+  "categoria": "Salud",
+  "empresa_default": "Power Gym Córdoba",
+  "slogan_default": "Tu transformación empieza aquí",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#121212",
+  "color_acento": "#ff1744",
+  "fuente": "Montserrat",
+  "secciones": ["Hero", "Clases", "Planes", "Entrenadores", "Contacto"],
+  "clases": [
+    "CrossFit",
+    "Funcional",
+    "Spinning",
+    "Yoga",
+    "Boxeo"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 3200, "descripcion": "Web + reservas"},
+    "premium": {"precio": 5800, "descripcion": "Web + control acceso"},
+    "full": {"precio": 9800, "descripcion": "Todo + app + nutrición"}
+  },
+  "posts_redes": [
+    "¡Clases nuevas de CrossFit!",
+    "Plan anual con 40% off",
+    "Resultados reales de nuestros alumnos"
+  ]
+}

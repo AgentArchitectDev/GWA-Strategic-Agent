@@ -1,0 +1,26 @@
+{
+  "nombre": "Inmobiliaria Lujo",
+  "categoria": "Inmobiliaria",
+  "empresa_default": "Premium Properties",
+  "slogan_default": "Propiedades exclusivas para clientes exclusivos",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#000000",
+  "color_acento": "#c9a227",
+  "fuente": "Playfair Display",
+  "secciones": ["Hero", "Propiedades", "Servicios", "Contacto"],
+  "propiedades": [
+    "Villa Cerro de las Rosas USD 1.2M",
+    "Departamento Puerto Madero USD 850K",
+    "Country con golf"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 3800, "descripcion": "Catálogo premium"},
+    "premium": {"precio": 7200, "descripcion": "Portal + tours virtuales"},
+    "full": {"precio": 15000, "descripcion": "Todo + CRM + app"}
+  },
+  "posts_redes": [
+    "Nueva propiedad exclusiva disponible",
+    "Villa con piscina infinity",
+    "Acceso off-market para clientes VIP"
+  ]
+}

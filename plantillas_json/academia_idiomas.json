@@ -1,0 +1,28 @@
+{
+  "nombre": "Academia de Idiomas",
+  "categoria": "Educación",
+  "empresa_default": "English World Córdoba",
+  "slogan_default": "Habla el mundo con confianza",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#f0f4f8",
+  "color_acento": "#ff6b00",
+  "fuente": "Montserrat",
+  "secciones": ["Hero", "Cursos", "Niveles", "Metodología", "Testimonios", "Inscribite"],
+  "cursos": [
+    "Inglés General",
+    "Inglés para Negocios",
+    "Preparación Exámenes (TOEFL, IELTS)",
+    "Francés",
+    "Portugués"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 2800, "descripcion": "Web + inscripciones"},
+    "premium": {"precio": 5200, "descripcion": "Web + plataforma clases virtuales"},
+    "full": {"precio": 9500, "descripcion": "Todo + app móvil + certificados digitales + Firebase"}
+  },
+  "posts_redes": [
+    "¡Clases de inglés conversacional intensivas!",
+    "Preparación TOEFL con 95% aprobación",
+    "Habla inglés fluido en 6 meses"
+  ]
+}

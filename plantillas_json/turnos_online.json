@@ -1,0 +1,26 @@
+{
+  "nombre": "Turnos Online",
+  "categoria": "Servicios",
+  "empresa_default": "Turnos Córdoba",
+  "slogan_default": "Tu turno en 1 clic",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#f0f8ff",
+  "color_acento": "#0077be",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Servicios", "Reservar Turno", "Horarios", "Contacto"],
+  "servicios": [
+    {"titulo": "Peluquería", "descripcion": "Cortes y color"},
+    {"titulo": "Médico", "descripcion": "Consultas generales"},
+    {"titulo": "Estética", "descripcion": "Tratamientos faciales"}
+  ],
+  "presupuesto": {
+    "basico": {"precio": 2800, "descripcion": "Sistema turnos básico"},
+    "premium": {"precio": 5200, "descripcion": "Turnos + recordatorios SMS"},
+    "full": {"precio": 9500, "descripcion": "Todo + app + pagos + Firebase"}
+  },
+  "posts_redes": [
+    "¡Sacá tu turno online en 1 minuto!",
+    "Horarios disponibles esta semana",
+    "Recordatorios automáticos por WhatsApp"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "nombre": "Gestión de Proyectos",
+  "categoria": "Tecnología",
+  "empresa_default": "Proyectos Córdoba",
+  "slogan_default": "Tus proyectos bajo control",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#121212",
+  "color_acento": "#ff9800",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Funcionalidades", "Planes", "Demo", "Contacto"],
+  "funcionalidades": [
+    "Tablero Kanban",
+    "Gantt",
+    "Asignación tareas",
+    "Reportes tiempo"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 3500, "descripcion": "Gestión básica"},
+    "premium": {"precio": 6800, "descripcion": "Gestión + reportes"},
+    "full": {"precio": 12500, "descripcion": "Todo + app + Firebase"}
+  },
+  "posts_redes": [
+    "¡Gestión de proyectos en tiempo real!",
+    "Tablero Kanban personalizado",
+    "Control total de tu equipo"
+  ]
+}

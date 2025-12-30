@@ -1,0 +1,28 @@
+{
+  "nombre": "Centro de Estética",
+  "categoria": "Salud",
+  "empresa_default": "Belleza Integral Córdoba",
+  "slogan_default": "Tu belleza, nuestra especialidad",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#fff0f5",
+  "color_acento": "#d81b60",
+  "fuente": "Playfair Display",
+  "secciones": ["Hero", "Tratamientos", "Antes/Después", "Equipo", "Turnos", "Promociones", "Contacto"],
+  "tratamientos": [
+    "Botox y Fillers",
+    "Láser Rejuvenecimiento",
+    "Depilación Definitiva",
+    "Tratamientos Corporales",
+    "Medicina Estética Avanzada"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 3200, "descripcion": "Web + turnos"},
+    "premium": {"precio": 5800, "descripcion": "Web + galería antes/después + promociones"},
+    "full": {"precio": 9800, "descripcion": "Todo + reserva online + recordatorios + Firebase"}
+  },
+  "posts_redes": [
+    "¡Antes y después que cambian vidas!",
+    "Promoción Botox: 30% off este mes",
+    "Turnos disponibles para láser rejuvenecimiento"
+  ]
+}

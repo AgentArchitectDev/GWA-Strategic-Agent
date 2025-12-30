@@ -1,0 +1,27 @@
+{
+  "nombre": "Landing Limpieza",
+  "categoria": "Servicios",
+  "empresa_default": "Limpieza Córdoba Pro",
+  "slogan_default": "Espacios impecables",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#ffffff",
+  "color_acento": "#2196f3",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Servicios", "Presupuestos", "Clientes", "Contacto"],
+  "servicios": [
+    "Oficinas",
+    "Post-obra",
+    "Hogares",
+    "Industrial"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 2800, "descripcion": "Web + presupuestos"},
+    "premium": {"precio": 5200, "descripcion": "Web + turnos recurrentes"},
+    "full": {"precio": 9500, "descripcion": "Todo + seguimiento + Firebase"}
+  },
+  "posts_redes": [
+    "¡Limpieza post-obra 20% off!",
+    "Oficinas impecables semanal",
+    "Presupuesto gratis"
+  ]
+}

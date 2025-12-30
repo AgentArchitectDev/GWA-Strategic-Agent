@@ -1,0 +1,26 @@
+{
+  "nombre": "Landing Energía Solar",
+  "categoria": "Energía",
+  "empresa_default": "Solar Córdoba",
+  "slogan_default": "Energía limpia para tu futuro",
+  "telefono_default": "5493510000000",
+  "color_fondo": "#121212",
+  "color_acento": "#ffeb3b",
+  "fuente": "Roboto",
+  "secciones": ["Hero", "Beneficios", "Instalaciones", "Calculadora", "Contacto"],
+  "beneficios": [
+    "Ahorro 90% luz",
+    "Energía renovable",
+    "Instalación llave en mano"
+  ],
+  "presupuesto": {
+    "basico": {"precio": 3500, "descripcion": "Web + calculadora"},
+    "premium": {"precio": 6800, "descripcion": "Web + presupuestos"},
+    "full": {"precio": 12500, "descripcion": "Todo + seguimiento + Firebase"}
+  },
+  "posts_redes": [
+    "¡Instalación solar 0 anticipo!",
+    "Ahorro promedio $15000 mensual",
+    "Energía limpia para tu hogar"
+  ]
+}
