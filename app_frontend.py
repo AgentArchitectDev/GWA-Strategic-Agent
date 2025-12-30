@@ -1,127 +1,76 @@
 import streamlit as st
-import httpx
-import json
-from typing import Dict, Any
+import httpx, os, json
+import streamlit.components.v1 as components
 
-# ----------------------------------------------------
-# CONFIGURACIÓN
-# ----------------------------------------------------
-CIAN_BASE_URL = "http://localhost:8000"
-TIMEOUT = 125 
-ENDPOINT = f"{CIAN_BASE_URL}/api/v1/run" 
+st.set_page_config(page_title="G.WA Multi-AI Control", layout="wide")
 
-st.set_page_config(
-    page_title="G.WA - Agente de Contenido Estratégico",
-    layout="wide"
-)
+# --- ESCANEO DE PLANTILLAS ---
+PATH_PLANTILLAS = r"D:\proyectos\GWA-Strategic-Agent\plantillas_json"
+if not os.path.exists(PATH_PLANTILLAS): os.makedirs(PATH_PLANTILLAS)
+plantillas = [f for f in os.listdir(PATH_PLANTILLAS) if f.endswith('.json')]
 
-# ----------------------------------------------------
-# LÓGICA DE INTERACCIÓN Y GENERACIÓN DE ARCHIVO
-# ----------------------------------------------------
+# --- HUB DE +300 MODELOS ---
+HUB_IA = {
+    "OpenRouter (+300 Modelos)": ["Auto-Select Best", "Claude 3.5 Sonnet", "DeepSeek V3", "Llama 3.1 405B", "Qwen 2.5 72B"],
+    "Meta (Llama)": ["Llama 3.2 90B Vision", "Llama 3.2 11B", "Llama 3.1 70B"],
+    "OpenAI": ["GPT-4o", "GPT-4o Mini", "o1-Preview"],
+    "Grok (xAI)": ["Grok-2", "Grok-1.5"],
+    "Google (Gemini)": ["Gemini 2.0 Flash", "Gemini 1.5 Pro"]
+}
 
-def crear_html_reporte(plan: Dict[str, Any]) -> str:
-    """Genera una cadena de texto en formato HTML para el archivo descargable."""
-    pasos_html = "".join([f"<li>{step}</li>" for step in plan.get('action_steps', [])])
-    
-    html = f"""
-    <!DOCTYPE html>
-    <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <style>
-            body {{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: auto; padding: 20px; }}
-            .header {{ background-color: #00f2ff; padding: 10px; text-align: center; border-radius: 8px; }}
-            .content {{ background: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd; margin-top: 20px; }}
-            h1 {{ color: #0056b3; }}
-            h2 {{ color: #007bff; border-bottom: 2px solid #00f2ff; padding-bottom: 5px; }}
-            ul {{ padding-left: 20px; }}
-            .footer {{ margin-top: 30px; font-size: 0.8em; color: #777; text-align: center; }}
-        </style>
-    </head>
-    <body>
-        <div class="header"><h1>G.WA Strategist Report</h1></div>
-        <div class="content">
-            <h1>{plan.get('title', 'Plan Estratégico')}</h1>
-            <h2>Resumen Ejecutivo</h2>
-            <p>{plan.get('summary', 'Sin resumen disponible.')}</p>
-            <h2>Pasos de Acción</h2>
-            <ul>{pasos_html}</ul>
-        </div>
-        <div class="footer">Generado por GWA-Strategic-Agent - Microservicios CIAN/MAGENTA</div>
-    </body>
-    </html>
-    """
-    return html
+with st.sidebar:
+    st.title("🛡️ G.WA Control Center")
+    prov = st.selectbox("🏢 Proveedor de IA", list(HUB_IA.keys()))
+    mod_ia = st.selectbox("🧠 Cerebro Activo", HUB_IA[prov])
+    st.divider()
+    sel_temp = st.selectbox(f"📋 Plantillas ({len(plantillas)})", plantillas if plantillas else ["Sin archivos"])
 
-def send_request(query: str) -> Dict[str, Any] | None:
-    st.info(f"Conectando a: {ENDPOINT}")
-    payload = {
-        "template_name": "GWA_STRATEGIC_PLAN", 
-        "context": {}, 
-        "user_prompt": query 
-    }
-    try:
-        with httpx.Client(timeout=TIMEOUT) as client:
-            response = client.post(ENDPOINT, json=payload)
-            response.raise_for_status() 
-            agent_output = response.json()
-            return agent_output.get("result_json", None)
-    except Exception as e:
-        st.error(f"Error: {e}")
-    return None
+st.title("G.WA | Strategic Agent Multimodal")
+vía = st.radio("Metodología:", ["OPCIÓN A: Manual (Edición Profunda)", "OPCIÓN B: Automática (IA Total)"], horizontal=True)
+modo_id = "A" if "OPCIÓN A" in vía else "B"
 
-# ----------------------------------------------------
-# INTERFAZ DE USUARIO (Streamlit)
-# ----------------------------------------------------
+col_ed, col_prev = st.columns([1, 1.2])
 
-st.title("G.WA | Generador de Contenido Estratégico 🤖")
-st.markdown("---")
-
-if 'history' not in st.session_state:
-    st.session_state.history = []
-
-query = st.text_area(
-    "Escribe tu solicitud (ej: 'Diseña un plan de marketing para lanzar un producto SaaS enfocado en Pymes')", 
-    height=150
-)
-
-if st.button("Generar Plan Estratégico", type="primary"):
-    if query:
-        with st.spinner("Generando plan con el Agente IA..."):
-            result = send_request(query)
-        if result:
-            st.session_state.history.insert(0, {"query": query, "response": result})
-            st.toast("¡Plan generado con éxito!", icon="✅")
-    else:
-        st.warning("Por favor, introduce una solicitud.")
-
-st.markdown("---")
-st.subheader("Historial de Planes Generados")
-
-if st.session_state.history:
-    for item in st.session_state.history:
-        if isinstance(item['response'], dict) and 'title' in item['response']:
-            plan = item['response']
-            with st.expander(f"**Solicitud:** {item['query'][:80]}...", expanded=True): 
-                st.markdown(f"### 📄 {plan['title']}")
-                st.info(f"**Resumen Ejecutivo:** {plan['summary']}")
-                
-                st.markdown("#### Pasos de Acción:")
-                for i, step in enumerate(plan['action_steps'], 1):
-                    st.markdown(f"{i}. {step}")
-                
-                # --- BOTÓN DE DESCARGA AGREGADO AQUÍ ---
-                html_data = crear_html_reporte(plan)
-                st.download_button(
-                    label="📥 Descargar este Plan (HTML)",
-                    data=html_data,
-                    file_name=f"Plan_{plan['title'].replace(' ', '_')}.html",
-                    mime="text/html",
-                    key=f"dl_{plan['title']}_{item['query'][:10]}" # Key única para evitar errores
-                )
+with col_ed:
+    with st.expander("🛠️ Cliente e Identidad", expanded=True):
+        empresa = st.text_input("Nombre de Empresa", "G.WA Agency")
+        if modo_id == "A":
+            slogan = st.text_input("Slogan Corporativo")
+            mision = st.text_area("Misión")
+            vision = st.text_area("Visión")
+            servicios = st.text_area("Servicios (uno por línea)", "Consultoría IA\nDesarrollo Web")
         else:
-            with st.expander(f"**Error de Parseo:** {item['query'][:80]}...", expanded=False):
-                st.error("Formato JSON incorrecto.")
-                st.json(item['response']) 
-else:
-    st.info("Aún no se ha generado ningún plan estratégico.")
+            st.success("🤖 IA Llenará Slogan, Misión y Visión automáticamente.")
+            slogan, mision, vision, servicios = "", "", "", ""
+
+    with st.expander("🌐 Matriz de 16 Redes Sociales", expanded=False):
+        canales = ["TikTok", "X", "Instagram", "GitHub", "Twitch", "LinkedIn", "Kwai", "WA Business", "Facebook", "Telegram", "Threads", "Telegram X", "Reddit", "Pinterest", "WeChat", "Discord"]
+        redes_dict = {c: st.text_input(f"Estrategia {c}", "Plan...") for c in canales} if modo_id == "A" else {}
+
+    with st.expander("🎨 Tuneo de Estilo & Visualización", expanded=True):
+        c1, c2, c3, c4 = st.columns(4)
+        c_bg, c_acc, c_txt, c_slo = c1.color_picker("Fondo", "#0f111a"), c2.color_picker("Acento", "#00fbff"), c3.color_picker("Texto", "#ffffff"), c4.color_picker("Slogan", "#ffcc00")
+        f_main = st.selectbox("Fuente", ["Inter", "Space Grotesk", "Montserrat", "Roboto"])
+        s_h = st.slider("Tamaño Header", 1.0, 10.0, 5.0)
+        s_s = st.slider("Tamaño Slogan", 0.5, 5.0, 2.0)
+
+# --- EJECUCIÓN ---
+if st.button("🚀 INICIAR PROCESAMIENTO G.WA", type="primary", use_container_width=True):
+    payload = {
+        "modo_ejecucion": modo_id, "empresa": empresa, "model_id": mod_ia,
+        "slogan": slogan, "mision": mision, "vision": vision,
+        "servicios": servicios.split("\n") if modo_id == "A" else [],
+        "redes": redes_dict, "canales_lista": canales,
+        "c_bg": c_bg, "c_accent": c_acc, "c_text": c_txt, "c_slogan": c_slo,
+        "f_main": f_main, "s_h": s_h, "s_s": s_s, "template_type": sel_temp
+    }
+    r = httpx.post("http://localhost:8000/api/v1/run", json=payload, timeout=60)
+    st.session_state.gwa = r.json()["result_json"]
+
+if "gwa" in st.session_state:
+    res = st.session_state.gwa
+    t1, t2 = st.tabs(["🖼️ Vista Web Responsiva", "💾 Exportación"])
+    with t1: components.html(res["visual_html"], height=500, scrolling=True)
+    with t2:
+        st.download_button("🌐 Descargar HTML", res["visual_html"], f"{empresa}.html", "text/html")
+        st.download_button("💾 Descargar Pack JSON", json.dumps(res["data_json"]), f"{empresa}.json", "application/json")
